@@ -83,7 +83,7 @@ app.set('view engine', 'php');
 app.all(/.+\.php$/, phpExpress.router);
 
 app.use(express.static(__dirname));//add the directory where HTML and CSS files are
-var server = app.listen(8587, "192.168.1.155", function () {//listen at the port and address
+var server = app.listen(80, "0.0.0.0", function () {//listen at the port and address
 	var host = server.address().address;
 	var port = server.address().port;
 	var family = server.address().family;

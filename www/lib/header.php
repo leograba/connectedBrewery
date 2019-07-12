@@ -15,11 +15,11 @@
             $url = parse_url($_SERVER["HTTP_HOST"]);//needed because of the different port used for startrecipe
             $short_url = $_SERVER["REQUEST_URI"];
         }
-        $links = array( "' href='http://$url[host]:8587/listrecipe.php'",
-                        "' href='http://$url[host]:8587/startrecipe.php'",
-                        "' href='http://$url[host]:8587/stats.php'",
-                        "' href='http://$url[host]:8587/settings.php'",
-                        "' href='http://$url[host]:8587/about.php'");
+        $links = array( "' href='http://$url[host]/listrecipe.php'",
+                        "' href='http://$url[host]/startrecipe.php'",
+                        "' href='http://$url[host]/stats.php'",
+                        "' href='http://$url[host]/settings.php'",
+                        "' href='http://$url[host]/about.php'");
         $selected = "style='background:#595450;' href='#'";
         
         switch($short_url){//highlight div and disable click to current page

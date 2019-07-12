@@ -26,7 +26,7 @@
             function recipeInProgress(data, status){
             	if(status == "success"){//if server responds ok
 					if(data.resp == "true"){//if the recipes are successfully recieved
-						window.location.replace("http://beaglebrewing.servebeer.com:8587/control.php");
+						window.location.replace("#/control.php");
 					}
 				}
             	
@@ -58,7 +58,7 @@
             			console.log(data);
             			if(data.resp == "success"){//if the recipes are successfully recieved
             				console.log("starting the requested recipe...");
-            				window.location.replace("http://beaglebrewing.servebeer.com:8587/control.php");
+            				window.location.replace("#/control.php");
             			}
             		}
             	},"json");
