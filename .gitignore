@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# Custom app log directory
+datalog
+
 # Runtime data
 pids
 *.pid
