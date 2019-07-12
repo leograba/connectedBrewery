@@ -1,8 +1,6 @@
-# final_paper_tcc #
-This repo contains some codes used in my final work for the undergraduation
+# connectedBrewery #
 
-The *Develop* branch is the default branch for development purposes, so it holds the most up-to-date files, but there is
-no certainty whether there is something not working or unfinished.
+A web-based app for controlling a home beer making machine, a.k.a home brewery.
 
 ## Tests ##
 
@@ -14,6 +12,9 @@ docker run --rm -it --name brewery -p 8000:80 connected-brewery
 ```
 
 ## About the node modules installed ##
+
+**NOTE: this is just legacy content, at some point in time those deps will be 
+solved and added to package.json**
 
     /var/www/node_modules
 
