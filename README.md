@@ -1,10 +1,19 @@
-# final_paper_tcc
+# final_paper_tcc #
 This repo contains some codes used in my final work for the undergraduation
 
 The *Develop* branch is the default branch for development purposes, so it holds the most up-to-date files, but there is
 no certainty whether there is something not working or unfinished.
 
-## About the node modules installed
+## Tests ##
+
+To bring up the web app for development you can use the provided Dockerfile:
+
+```
+docker build -t connected-brewery .
+docker run --rm -it --name brewery -p 8000:80 connected-brewery
+```
+
+## About the node modules installed ##
 
     /var/www/node_modules
 
