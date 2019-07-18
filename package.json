@@ -1,11 +1,8 @@
 {
-  "name": "www",
+  "name": "Connected Brewery",
   "version": "1.0.0",
   "description": "A connected brewery app",
-  "main": "index.html",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "www/index.html",
   "dependencies": {
     "rickshaw": "^1.6.6"
   },
